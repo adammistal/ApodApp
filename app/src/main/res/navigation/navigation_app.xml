@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/navigation_app" app:startDestination="@id/splashFrag">
+
+    <fragment android:id="@+id/splashFrag" android:name="pl.codeapp4u.apodapp.ui.splash.SplashFrag"
+              android:label="SplashFrag">
+        <action android:id="@+id/action_splashFrag_to_mainFrag" app:destination="@id/mainFrag"/>
+    </fragment>
+    <fragment android:id="@+id/mainFrag" android:name="pl.codeapp4u.apodapp.ui.main.MainFrag" android:label="MainFrag"/>
+</navigation>

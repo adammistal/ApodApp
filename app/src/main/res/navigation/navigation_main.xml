@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/navigation_main" app:startDestination="@id/latestsFrag">
+
+    <fragment android:id="@+id/latestsFrag" android:name="pl.codeapp4u.apodapp.ui.main.latest.LatestsFrag"
+              android:label="LatestsFrag"/>
+    <fragment android:id="@+id/feedFrag" android:name="pl.codeapp4u.apodapp.ui.main.feed.FeedFrag"
+              android:label="FeedFrag"/>
+    <fragment android:id="@+id/favouritesFrag" android:name="pl.codeapp4u.apodapp.ui.main.favourites.FavouritesFrag"
+              android:label="FavouritesFrag"/>
+</navigation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/latestsFrag"
+            android:title="TTLatests"/>
+
+    <item
+            android:id="@+id/feedFrag"
+            android:title="TTFeed"/>
+
+    <item
+            android:id="@+id/favouritesFrag"
+            android:title="TTFavourites"/>
+</menu>
